@@ -8,6 +8,8 @@ Citi Bike is available for use 24 hours/day, 7 days/week, 365 days/year, and rid
 
 Citi bike is providing data about all the rides from its birth. Lets dive into it and explore it.
 
+> __Note:__ Each plot opens up in a new tab. Every plot has a tool box using which you can interact with the plot by zooming in, dragging or hover over the data points to get the data at a point.
+
 ## Collective distance
 Click on the image to open interactive plot
 [![image](https://user-images.githubusercontent.com/30205620/29032466-727b5616-7b5f-11e7-8c95-33e44ae5455c.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/total_distance.html)<br>
@@ -60,4 +62,4 @@ Overall transportation is gradually decreasing, which is good for citi bike auth
 ## Google vs citi bike users
 Difference between average citi bike riders speed and google estimate is __2.5 miles/hr__. This could be because riders usually stop to look around the places, or because of traffic.
 
-The source code for this analysis could be found on my [Github](https://github.com/naveenrc/new_york_citibikes)
+The source code for this analysis can be found on my [Github](https://github.com/naveenrc/new_york_citibikes)
