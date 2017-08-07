@@ -1,2 +1,4 @@
+theme: jekyll-theme-architect
 
-theme: ink
+title: [New York Citi bike]
+description: [Explore NYC citi bikes data and predict number of rides, stations that need immediate assistance]
