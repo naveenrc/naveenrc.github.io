@@ -9,4 +9,5 @@ Citi Bike is available for use 24 hours/day, 7 days/week, 365 days/year, and rid
 Citi bike is providing data about all the rides from its birth. Lets dive into it and explore it.
 
 ## Collective distance
-![image](https://user-images.githubusercontent.com/30205620/29032466-727b5616-7b5f-11e7-8c95-33e44ae5455c.png)
+Click on the image to open interactive plot
+[![image](https://user-images.githubusercontent.com/30205620/29032466-727b5616-7b5f-11e7-8c95-33e44ae5455c.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/total_distance.html)
