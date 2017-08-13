@@ -12,13 +12,13 @@ Citi bike is providing data about all the rides from its birth. Lets dive into i
 
 ## Collective distance
 Click on the image to open interactive plot
-[![image](https://user-images.githubusercontent.com/30205620/29032466-727b5616-7b5f-11e7-8c95-33e44ae5455c.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/total_distance.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245013-47f16d66-7f99-11e7-8727-612a112a030d.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/total_distance.html)<br>
 These are the estimated numbers, assuming that the riders reach their destination as suggested by google`s shortest route.<br>
 Just think about __676 million miles__, Yes this is the estimated minimum total distance traveled so far by all the riders.<br>
 
 ## Members vs non-Members
 Click on the image to open interactive plot
-[![image](https://user-images.githubusercontent.com/30205620/29033612-99e7516a-7b63-11e7-9b2a-842422976b8f.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/user_plot.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245022-6e178a5c-7f99-11e7-9ec3-18170e067747.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/user_plot.html)<br>
 From this it is evident that users are willing to subscribe. We can make following assertions:<br>
 1. Users are mostly based in New York city and use citi bike services very frequently. Taking advantage of the unlimited 45 minutes rides.
 2. Reducing pay per ride price could improve the no-member involvement too.
@@ -26,37 +26,37 @@ From this it is evident that users are willing to subscribe. We can make followi
 
 ## Involvement by gender
 Click on the image to open interactive plot
-[![image](https://user-images.githubusercontent.com/30205620/29034226-9d007f96-7b65-11e7-9d4b-cd56cc8598e1.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/gender_plot.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245025-8ea8a422-7f99-11e7-8ea6-298aa5f99d46.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/gender_plot.html)<br>
 Male are ahead of female by about an average of __7000 rides a day__
 
 ## Involvement by age
 Click on the image to open interactive plot
-[![image](https://user-images.githubusercontent.com/30205620/29034473-5bf3a9c8-7b66-11e7-8939-001d0a91e8d9.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/age_plot.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245039-f2bfb78e-7f99-11e7-9ba6-af51bcbda522.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/age_plot.html)<br>
 These figures are only based on members, because non-members details are not provided.<br>
 People around __35 years__ are leading the race with __more than 1.4 million rides__. Contrast to teens less than 200k rides.
 
 ## Is it raining? So what
 Click on the image to open interactive plot
-[![image](https://user-images.githubusercontent.com/30205620/29034842-99a99dbc-7b67-11e7-8208-a61600991b09.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/weather_rides.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245047-20cfc43e-7f9a-11e7-9339-d9aa48240cba.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/weather_rides.html)<br>
 Although no rain is definitely a good increase in number of rides, 2 inches of rain also saw 30k rides. So, these new yorkers like rain? I think so.<br>
 
-[![image](https://user-images.githubusercontent.com/30205620/29035009-2726b03a-7b68-11e7-90f0-d6b3cf54517a.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/weather_rides.html)<br>
-Extreme weather is effecting the number of rides<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245059-66fed396-7f9a-11e7-9e3b-30b04c37b40a.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/weather_rides.html)<br>
+Extreme temperature is effecting the number of rides<br>
 
-[![image](https://user-images.githubusercontent.com/30205620/29035066-60aceefa-7b68-11e7-9037-cd133ae4162b.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/weather_rides.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245053-3b772db8-7f9a-11e7-8ff1-e117f0045309.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/weather_rides.html)<br>
 Snowfall is having similar effect to that of rain.
 
 ## Popular bike stations
 Click on the image to open interactive plot
-[![image](https://user-images.githubusercontent.com/30205620/29035297-0b138a84-7b69-11e7-9183-aea0da76dd05.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/plot_popular.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245066-9a20eaac-7f9a-11e7-910f-0f236be5d7d2.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/plot_popular.html)<br>
 Midtown bike stations are having the most number of transactions (bicycle in/out) in March 2017.<br>
 
 ## Station to station transport
 Click on the image to open interactive plot
-[![image](https://user-images.githubusercontent.com/30205620/29035543-f9d8d93a-7b69-11e7-863d-cf5c61bd3153.png)
-](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/transport_plot.html)<br>
+[![image](https://user-images.githubusercontent.com/30205620/29245070-c341ed5a-7f9a-11e7-9a13-dc44ccdafb9b.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/transport_plot.html)<br>
 
-Citi bike transports bikes to stations where there are less number of bikes. So, we can see Dec 2015 to Jan 2016 is having massive increase. It is just because citi bike installed new bikes and stations in NYC and Jersey city regions.<br>
+Citi bike transports bikes to stations where there are less number of bikes. So, we can see Dec 2015 to Jan 2016 is having massive increase. It is just because citi bike installed new bikes and stations in NYC and Jersey city regions, repairs at some stations or some group events.<br>
+I have emailed a member of citi bike for exact reason of this pattern.<br>
 Overall transportation is gradually decreasing, which is good for citi bike authorities.
 
 ## Google vs citi bike users
