@@ -59,7 +59,39 @@ Citi bike transports bikes to stations where there are less number of bikes. So,
 I have emailed a member of citi bike for exact reason of this pattern.<br>
 Overall transportation is gradually decreasing, which is good for citi bike authorities.
 
+## Bikes transported to Station 519 (most popular)
+![image](https://user-images.githubusercontent.com/30205620/29431067-a91a01f6-8364-11e7-9982-91f9f1cb4557.png)
+
 ## Google vs citi bike users
 Difference between average citi bike riders speed and google estimate is __2.5 miles/hr__. This could be because riders usually stop to look around the places, or because of traffic.
+
+## Predict number of rides in a day
+I have used multilayer perceptron window technique to predict number of rides in a day. The test set size is 200 and train set size is 1162.
+![image](https://user-images.githubusercontent.com/30205620/29431489-177a8e80-8366-11e7-85cb-550ac3cddb2f.png)
+
+Ratio between observed and predicted values is shown below
+
+![image](https://user-images.githubusercontent.com/30205620/29431592-7a881a74-8366-11e7-8d3b-988a35cd946e.png)
+
+Accuracy statistics
+
+![image](https://user-images.githubusercontent.com/30205620/29431635-9f1c9d38-8366-11e7-89ce-126451104e14.png)
+
+## Predict number of bikes transported to a station in a day
+Most popular station in the system is 519. <br>
+I have used resample method in pandas to convert hourly data to four hours and sum it.<br>
+It implies this prediction is done assuming citi bike transports bikes 6 times a day or every four hours.<br>
+Train size is 8193 and test size is 72.<br>
+
+![image](https://user-images.githubusercontent.com/30205620/29432280-010abb72-8369-11e7-9bed-e8c75222478d.png)
+
+Ratio between observed and predicted values is shown below
+![image](https://user-images.githubusercontent.com/30205620/29432331-306b5390-8369-11e7-8a5e-51ad069b913b.png)
+
+Transportations are decreasing compared to previous years, so predictions are varying massively.<br>
+But here are the statistics
+![image](https://user-images.githubusercontent.com/30205620/29432518-fc1d7446-8369-11e7-9185-4c6dc9743180.png)
+So, because of zeros there are mispredictions, but zeros are inevitable.<br>
+Accuracy is 89, which is good.
 
 The source code for this analysis can be found on my [Github](https://github.com/naveenrc/new_york_citibikes)
