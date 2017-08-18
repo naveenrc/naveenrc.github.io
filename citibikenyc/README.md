@@ -14,7 +14,7 @@ Citi bike is providing data about all the rides from its birth. Lets dive into i
 Click on the image to open interactive plot
 [![image](https://user-images.githubusercontent.com/30205620/29245013-47f16d66-7f99-11e7-8727-612a112a030d.png)](https://htmlpreview.github.io/?https://github.com/naveenrc/naveenrc.github.io/blob/master/citibikenyc/total_distance.html)<br>
 These are the estimated numbers, assuming that the riders reach their destination as suggested by google`s shortest route.<br>
-Just think about __676 million miles__, Yes this is the estimated minimum total distance traveled so far by all the riders.<br>
+Just think about __67.6 million miles__, Yes this is the estimated minimum total distance traveled so far by all the riders.<br>
 
 ## Members vs non-Members
 Click on the image to open interactive plot
