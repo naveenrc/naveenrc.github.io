@@ -66,32 +66,49 @@ Overall transportation is gradually decreasing, which is good for citi bike auth
 Difference between average citi bike riders speed and google estimate is __2.5 miles/hr__. This could be because riders usually stop to look around the places, or because of traffic.
 
 ## Predict number of rides in a day
-I have used multilayer perceptron window technique to predict number of rides in a day. The test set size is 200 and train set size is 1162.
-![image](https://user-images.githubusercontent.com/30205620/29431489-177a8e80-8366-11e7-85cb-550ac3cddb2f.png)
+I have used multilayer perceptron window technique to predict number of rides in a day. The test set size is 400 and train set size is 962.<br>
+![figure_1](https://user-images.githubusercontent.com/30205620/29490314-8ede1a40-8506-11e7-993c-13ef4242e502.png)
 
 Ratio between observed and predicted values is shown below
 
-![image](https://user-images.githubusercontent.com/30205620/29431592-7a881a74-8366-11e7-8d3b-988a35cd946e.png)
+![figure_1-1](https://user-images.githubusercontent.com/30205620/29490312-8edd6b68-8506-11e7-817d-4a72fae177e6.png)
 
-Accuracy statistics
+Accuracy statistics<br>
+Ideally actual/prediction ratio should be 1s to be accurate
++ Accuracy: (length of array with ratios in given range)/(Total length)
++ Range within [0.93, 1.12] (1st standard deviation)
+	+ Accuracy: 33.83
++ Increase range to [0.7, 1.4], 
+	+ Accuracy: 76.5
 
-![image](https://user-images.githubusercontent.com/30205620/29431635-9f1c9d38-8366-11e7-89ce-126451104e14.png)
+![figure_1-2](https://user-images.githubusercontent.com/30205620/29490315-8ede249a-8506-11e7-8b96-b31b042957f2.png)
+
+![figure_1-3](https://user-images.githubusercontent.com/30205620/29490320-8ee7ee26-8506-11e7-86ed-918c7f43bc69.png)
 
 ## Predict number of bikes transported to a station in a day
 Most popular station in the system is 519. <br>
-I have used resample method in pandas to convert hourly data to four hours and sum it.<br>
-It implies this prediction is done assuming citi bike transports bikes 6 times a day or every four hours.<br>
-Train size is 8193 and test size is 72.<br>
+I have used resample method in pandas to convert hourly data to six hours periods and sum it.<br>
+It implies this prediction is done assuming citi bike transports bikes 4 times a day or every six hours.<br>
+Train size is 3832 and test size is 1642.<br>
 
-![image](https://user-images.githubusercontent.com/30205620/29432280-010abb72-8369-11e7-9bed-e8c75222478d.png)
+![figure_2](https://user-images.githubusercontent.com/30205620/29490319-8ee688f6-8506-11e7-9598-96c9b178be9e.png)
+
+![figure_2-1](https://user-images.githubusercontent.com/30205620/29490318-8ee5833e-8506-11e7-9538-cecdcbb43308.png)
+
+![figure_2-2](https://user-images.githubusercontent.com/30205620/29490316-8ede5262-8506-11e7-8cfc-6479ca18c274.png)
 
 Ratio between observed and predicted values is shown below
-![image](https://user-images.githubusercontent.com/30205620/29432331-306b5390-8369-11e7-8a5e-51ad069b913b.png)
+![figure_2-3](https://user-images.githubusercontent.com/30205620/29490313-8eddbed8-8506-11e7-8467-cb3e0bb1159c.png)
 
 Transportations are decreasing compared to previous years, so predictions are varying massively.<br>
 But here are the statistics
-![image](https://user-images.githubusercontent.com/30205620/29432518-fc1d7446-8369-11e7-9185-4c6dc9743180.png)
+![figure_2-4](https://user-images.githubusercontent.com/30205620/29490317-8edef262-8506-11e7-8a14-3315a5329a5b.png)
+Zeros are predicted accurately
++ But values other than zeros which are not consecutive are not
+predicted accurately
++ Skewed data
 So, because of zeros there are mispredictions, but zeros are inevitable.<br>
-Accuracy is 89, which is good.
+But the accuracy is good, which is misleading sometimes.<br>
+We can avoid transporting bikes if prediction is greater than a threshold, that would improve the transportation efficiency.
 
 The source code for this analysis can be found on my [Github](https://github.com/naveenrc/new_york_citibikes)
