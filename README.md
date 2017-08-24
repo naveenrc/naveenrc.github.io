@@ -1,5 +1,5 @@
 ## Latest posts
-## Download data from dynamic websites
+## [Download data from dynamic websites](#downloaddynamic)
 Lets say we need to download data from a website which is dynamic.<br>
 If we do
 ```bash
