@@ -1,4 +1,5 @@
 ## Latest posts
+
 ## [Download data from dynamic websites](#downloaddynamic)
 Lets say we need to download data from a website which is dynamic.<br>
 If we do
@@ -57,7 +58,31 @@ for idx,i in enumerate(tag):
 All your files are downloaded!!!
 
 
+## [Multiprocessing in python](#multiprocessing)
+Multiprocessing seems to be a bit difficult but not after reading this
+```python
+from multiprocessing import Pool, Lock
 
+def func(x, y):
+    # do some operations
+    with lock:
+    # this is like thread safe operation, only one process can access it at a time
+    # write ouput to a file or share state using Value or Array from multiprocessing
+
+# making the lock global
+def init_child(lock_):
+    global lock
+    lock = lock_
+
+lock = Lock()
+p = Pool('number of processes, example 4', initializer=init_child, initargs=(lock,))
+inputs = [1, 2, 3, 4]
+p.map(func, inputs)
+p.close()
+p.join()
+
+```
+For more information about multiprocessing, refer https://docs.python.org/2/library/multiprocessing.html
 
 ### Contact
 
