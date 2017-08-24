@@ -1,6 +1,6 @@
 ## Latest posts
 
-## [Download data from dynamic websites](#downloaddynamic)
+## <a name='downloaddynamic'>Download data from dynamic websites</a>
 Lets say we need to download data from a website which is dynamic.<br>
 If we do
 ```bash
@@ -58,7 +58,7 @@ for idx,i in enumerate(tag):
 All your files are downloaded!!!
 
 
-## [Multiprocessing in python](#multiprocessing)
+## <a name='multiprocessing'>Multiprocessing in python</a>
 Multiprocessing seems to be a bit difficult but not after reading this
 ```python
 from multiprocessing import Pool, Lock
