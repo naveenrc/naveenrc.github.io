@@ -6,10 +6,11 @@ If we do
 ```bash
 wget 'url'
 ```
-Output is a script which you got nothing to do with like this
+Output is a script which you got nothing to do with like this, which does not have the links we need to download
 ![image](https://user-images.githubusercontent.com/30205620/29646283-8a02a390-8850-11e7-8152-317991d6e8b2.png)
 
 Url used in the image: https://s3.amazonaws.com/tripdata/index.html
+Table with the all the files that are to be downloaded is rendered using a script (view page source to get an idea of how it looks).
 
 ## How to deal with this
 We can use
@@ -51,7 +52,10 @@ tag = parser.findAll('a')
 
 for idx,i in enumerate(tag):
     url = i['href'] # get the href attribute of the <a>
-	  wget.download(url,out="output path")
+    wget.download(url,out="output path")
+    
+driver.close()	  
+	  
 ```
 
 
