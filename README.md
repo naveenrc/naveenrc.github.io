@@ -1,3 +1,5 @@
+Github: <a href="https://github.com/naveenrc">naveenrc</a> <br>
+Linkedin: <a href="https://www.linkedin.com/in/naveenrch/">in/naveenrch</a>
 ## Latest posts
 
 ## <a name='downloaddynamic'>Download data from dynamic websites</a>
@@ -92,4 +94,3 @@ For more information about multiprocessing, refer https://docs.python.org/2/libr
 
 LinkedIn: <a href="https://www.linkedin.com/in/naveen-c-823226141/" target="_blank">Naveen Ch </a><br>
 Email: naveenrch@yahoo.com<br>
-Phone: 832 805 4915
