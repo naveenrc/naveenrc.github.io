@@ -3,25 +3,37 @@ layout: custom
 tags: [Jekyll, theme, responsive, blog, template]
 ---
 
-The urge to make dreams come true is guiding me along a path to learn computer more and more.
-Yes, there were some times when I got deeply involved into a task and missed lunch, but had
-a virtual meal by solving a problem (Using Python. Yes, python can do anything.)<br>
+True Dat. But I know how to order food using a python script (python can do anything).
 
-<code>$pip install food</code><br>
+<font size="4"><code>$pip install food</code></font><br>
 
-<code>>>>from food.Italian import pizza<br>>>>pizza("Onion", "Bell Pepper")</code><br>
+<font size="4"><code>>>>from food.Italian import pizza<br>>>>pizza("Onion", "Bell Pepper")</code></font><br>
 
 Fun Aside,<br>
 I\`m a Software Engineer capable of learning and solving any computer related issue. Although my
-expertise lies in python programming, I can architect, develop and maintain a software platform or
-an application.<br>
+expertise lies in python programming, I can architect, develop and maintain any software platform or
+an application.
 
-<code>
-<span>>>></span>My_Scope = {<br>
-"Computer_languages" : ["Python", "Java",
-<span style="margin-left:16.4em">"Javascript", "Bash"],<br>
-"Servers/Containers" : ["AWS", "Openshift",
-<span style="margin-left:16.4em">"Docker", "Kubernetes"],
-"Operating_systems" : ["RHEL", "Ubuntu", "Windows"]<br>
+<font size="4"><code>
+My_Scope = {<br>
+"Computer_languages" : ["Python", "Java", "Javascript", "Bash"],<br>
+<br>
+"Servers/Containers" : ["AWS", "Openshift", "Docker", "Kubernetes"],<br>
+<br>
+"Operating_systems" : ["RHEL", "Ubuntu", "Windows", "Mac"],<br>
+<br>
 "More" : "My blog posts & Resume"<br>
 }
+</code></font><br>
+I use python to analyze data, write pattern recognition algorithms(Machine Learning) and make
+my life easier by writing little scripts whenever I felt my task is becoming repetitive. I have written and
+published python libraries in my current company. I\`m a full stack developer
+knowing how to write backend services in Java and visualize it with charts and tables in react front-end single page applications. Expert in container orchestration using Kubernetes and Openshift while knowing very much about
+building and publishing docker images. I have gained vast amount of knowledge on linux as I have worked mostly on Servers
+running RHEL and Ubuntu. While the software stack goes on, I know the networking concepts very well and can help
+ fix security issues and better design the application. I thank the open source communities which made lot of our
+ code be optimized and meet the standards.
+
+ Current Goals:<br>
+  # Ethical hacking<br>
+  # Contribute to open source world
