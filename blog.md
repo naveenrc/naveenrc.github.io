@@ -1,6 +1,6 @@
 ---
 layout: home
 permalink: /blog/index.html
-title: "My tech experiences"
+title: "Coming soon"
 tags: [blog, graphic design]
 ---
