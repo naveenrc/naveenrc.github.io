@@ -55,10 +55,14 @@
             <li>
               <a href="/" title="{{ site.title }}">Home</a>
             </li>
-            
+
             {% for link in site.links %}
                 <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
+
+            <li>
+              <a href="/resume.pdf" target="_blank">Resume</a>
+            </li>
 
           </ul>
         </nav>
