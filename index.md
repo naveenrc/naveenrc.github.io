@@ -28,12 +28,12 @@ My_Scope = {<br>
 <p style="text-align: justify">I use python to analyze data, write pattern recognition algorithms(Machine Learning) and make
 my life easier by writing little scripts whenever I felt my task is becoming repetitive. I have written and
 published python libraries in my current company. I am a full stack developer
-knowing how to write backend services in Java and visualize it with charts and tables in react front-end single page applications. Expert in container orchestration using Kubernetes and Openshift while knowing very much about
+knowing how to write backend services in Java and visualize it with charts and tables in react front-end single page applications. Knowledge in container orchestration using Kubernetes and Openshift while knowing very much about
 building and publishing docker images. I have gained vast amount of knowledge on linux as I have worked mostly on Servers
-running RHEL and Ubuntu. While the software stack goes on, I know the networking concepts very well and can help
+running RHEL and Ubuntu. While the software stack goes on, I am familiar with the networking concepts and can help
  fix security issues and better design the application. I thank the open source communities which made lot of our
  code be optimized and meet the standards.</p>
 
  Current Goals:<br>
   # Ethical hacking<br>
-  # Contribute to open source world
+  # Contribute to python open source community
