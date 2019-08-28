@@ -3,14 +3,14 @@ layout: custom
 tags: [Jekyll, theme, responsive, blog, template]
 ---
 
-<p style="text-align: justify">True Dat. But I know how to order food using a python script (python can do anything).</p>
+<p style="text-align: justify">Where there is a will, there is a way;</p>
 
 <font size="4"><code>$pip install food</code></font><br>
 
 <font size="4"><code>>>>from food.Italian import pizza<br>>>>pizza("Onion", "Bell Pepper")</code></font><br>
 
 <p style="text-align: justify">Fun Aside,<br>
-I am a Software Engineer capable of learning and solving any computer related issue. Although my
+I am a Software Engineer, with lots of enthusiasm, open to learn and solve any problem. Although my
 expertise lies in python programming, I can architect, develop and maintain any software platform or
 an application.</p>
 
@@ -33,7 +33,3 @@ building and publishing docker images. I have gained vast amount of knowledge on
 running RHEL and Ubuntu. While the software stack goes on, I am familiar with the networking concepts and can help
  fix security issues and better design the application. I thank the open source communities which made lot of our
  code be optimized and meet the standards.</p>
-
- Current Goals:<br>
-  # Ethical hacking<br>
-  # Contribute to python open source community
