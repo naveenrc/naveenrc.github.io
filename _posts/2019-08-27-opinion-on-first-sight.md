@@ -28,7 +28,14 @@ A gentleman named John Bell with bell inequalities proved that quantum mechanics
 $$\cos \alpha |photon; x\rangle + \sin \alpha |photon; y\rangle = |photon; \alpha \rangle ,$$ which is superposition of one state on to other. Comparing this equation to classical equation, $E$ is removed because the above equation is for a single photon. After passing through the polarizer, state is $|photon; x \rangle$, because photon is hitting an x direction polarizer and $\cos \alpha$ is not needed because, the whole photon goes though and not a fraction of photon. We will see it in more detail;
 </p>
 
-Will be posting the remaining article soon :)
-
 ### Quantum Superpositions;
+<p style="text-align: justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In classical physics, sum of electric fields is an electric field, nothing strange. How is it different in quantum physics? One way to illustrate it is using Mach-Zehnder interferometer in the figure below.</p>
+![alt text](../images/machzehnder.PNG "Mach-Zehnder Interferometer")
+<p style="text-align: justify">The setup consists of two Beam Splitters BS1 and BS2, two mirrors M1 and M2, and two detectors D0 and D1. Consider the configuration is prepared to produce an interference so that all the photons end up at D0. This experiment is done with a beam of light before photon theory. You might think interference is one photon interfering with other resulting in cancelling/destructive interference in which bunch of energy is going into nothing which is not possible. On the other hand if it is constructive interference, two photons become four in which energy is not conserved. So, in quantum theory light interference, each photon interferes with itself, this is the only possibility. It can be framed this way, state of each photon = superposition of state of photon in upper beam + lower beam.<br/>
+Let`s consider two states, $|A\rangle$ and $|B\rangle$. If we measure some property (position, momentum, spin or energy), on $|A\rangle$ you get $a$ and on $|B\rangle$ you get $b$. Now in a quantum mechanical state, $\alpha |A\rangle + \beta |B\rangle$. Measure the same property on this state, you always get either a or b (not an average) with different probabilities.
+$$Prob(a)=\frac{|\alpha|^2}{|\alpha|^2 + |\beta|^2},$$ $$Prob(b)=\frac{|\beta|^2}{|\alpha|^2 + |\beta|^2},$$
+When you want to figure out what state you have, you have to prepare many copies of your state in this quantum system and do the experiment many times, because sometimes you`ll get $A$ and sometimes $B$. After you have measured many times, you can assess the probabilities and reconstruct the state.</p>
+
+Will be posting the entanglement part soon :)
+
 ### Entanglement;
