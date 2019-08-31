@@ -36,6 +36,9 @@ Let`s consider two states, $|A\rangle$ and $|B\rangle$. If we measure some prope
 $$Prob(a)=\frac{|\alpha|^2}{|\alpha|^2 + |\beta|^2},$$ $$Prob(b)=\frac{|\beta|^2}{|\alpha|^2 + |\beta|^2},$$
 When you want to figure out what state you have, you have to prepare many copies of your state in this quantum system and do the experiment many times, because sometimes you`ll get $A$ and sometimes $B$. After you have measured many times, you can assess the probabilities and reconstruct the state.</p>
 
-Will be posting the entanglement part soon :)
-
 ### Entanglement;
+<p style="text-align: justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantum Mechanical Entanglement is the phenomenon of superposition of states of two particles. We dont need strong interaction between particles to produce entanglement, they can be non-interacting. We have a particle 1 which can be in any of the states $|u_1\rangle, |u_2\rangle$ and particle 2 in any of the states $|v_1\rangle, |v_2\rangle$. The state of the system can be described as $|u\rangle \times |v\rangle$. Consider,
+$$(\alpha_1 |A_1\rangle + \alpha_2 |A_2\rangle) \times (\beta_1 |B_1\rangle + \beta_2 |B_2\rangle) =$$ $$\alpha_1 \beta_1 |A_1\rangle \times |B_1\rangle + \alpha_1 \beta_2 |A_1\rangle \times |B_2\rangle +
+$$ $$\alpha_2 \beta_1 |A_2\rangle \times |B_1\rangle +
+\alpha_2 \beta_2 |A_2\rangle \times |B_2\rangle$$
+A state of two particles is said to be entangled if it cannot be written in the factorized form $(....) \times (....)$ which allows us to describe the state by simply stating the state of each particle.</p>
