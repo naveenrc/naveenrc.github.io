@@ -1,10 +1,10 @@
 ---
 layout: post
-title: An overview
-description: "Science is interesting. From discovering gravity to setting foot on moon, every event was a giant leap of success for mankind. Quantum computing, is probably going to shape the future. Let`s see what it is and how easy is it to learn & research. This article provides an overview of quantum mechanics."
+title: An overview of basic concepts of Quantum Computing
+description: "Science is interesting. From discovering gravity to setting foot on moon, every event was a giant leap of success for mankind. Quantum computing, is probably going to shape the future. Let`s see what it is and how easy is it to learn & research. This article provides an overview of few key characteristics of quantum mechanics that are necessary in quantum computing."
 time: 15 min
 category: articles
-tags: [intro, beginner, jekyll, tutorial]
+tags: [intro, beginner]
 image:
   feature: "post1.jpg"
 ---
