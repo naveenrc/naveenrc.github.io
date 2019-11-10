@@ -22,7 +22,7 @@ My_Scope = {<br>
 <br>
 "Operating_systems" : ["RHEL", "Ubuntu", "Windows", "Mac"],<br>
 <br>
-"More" : "My blog posts & Resume"<br>
+"More" : "My blog posts"<br>
 }
 </code></font><br>
 <p style="text-align: justify">I use python to analyze data, write pattern recognition algorithms(Machine Learning) and make
