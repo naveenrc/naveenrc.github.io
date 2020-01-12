@@ -28,8 +28,8 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: The Science of Computing
-    url: /quantum_computing
+#   - title: The Science of Computing
+#     url: /quantum_computing
   - title: Rock Climbing
     url: /climbing
   # - title: Contact Me
