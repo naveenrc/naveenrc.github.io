@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /quantum_computing/index.html
+permalink: /blogs/index.html
 title: "Quantum Computing"
 tags: [blog, graphic design]
 ---
