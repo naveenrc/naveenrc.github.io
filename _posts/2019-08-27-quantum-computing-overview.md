@@ -8,9 +8,6 @@ tags: [intro, beginner]
 image:
   feature: "post1.jpg"
 ---
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" nonce="REOKRgiM"></script>
-
 <p style="text-align: justify">This article is inspired from MIT professor Barton Zwiebach`s online courses. If it has been long time since you left college, don`t worry! This article is a short  overview of the key characteristics of Quantum Mechanics which will be helpful in Quantum physics and Quantum Information Science. Prof. Barton caught my attention as soon as I hit play button, he goes, Quantum mechanics is a framework; Wrap it around something it becomes quantum-something. For example, quantum mechanics applied to physical phenomena gives Quantum physics and similarly quantum mechanics applied to photons (in regular english when applied to light and optical devices) turns into quantum optics and so on. Although there is a lot of research going on at the moment, the era of quantum physics began in 1925 with the discoveries of Schrodinger and Heisenberg, while the seeds for these discoveries were planted by Planck, Einstein, Bohr, de Broglie, and others. This field is counterintuitive and it might seem paradoxical and let`s see why.</p>
 
 Lets understand the following key features of Quantum Mechanics:
