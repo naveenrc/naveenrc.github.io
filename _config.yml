@@ -1,6 +1,6 @@
 title:            Blog
-#tagline:
-#description:      About me
+tagline:
+description:      My Philosophical articles
 # canonical: https://naveenchilumula.com
 
 # Owner/author information
@@ -27,7 +27,7 @@ opengraph:
 
 # Links to include in top navigation
 # For external links add external: true
-links:
+#links:
 #  - title: Blogs
 #    url: /blogs
   # - title: Rock Climbing
