@@ -1,6 +1,6 @@
 ---
 layout: home
 permalink: /blogs/index.html
-title: "Articles"
+title: Articles
 tags: [blog, philosophy]
 ---
