@@ -28,8 +28,8 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Blogs
-    url: /blogs
+#  - title: Blogs
+#    url: /blogs
   # - title: Rock Climbing
   #   url: /climbing
   # - title: Contact Me

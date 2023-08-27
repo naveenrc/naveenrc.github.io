@@ -1,8 +1,6 @@
 ---
-layout: custom
-tags: [Jekyll, theme, responsive, blog, template]
+layout: home
+permalink: /blogs/index.html
+title: "Articles"
+tags: [blog, philosophy]
 ---
-
-<p style="text-align: justify">Coming soon</p>
-
-<font size="4"><code>soon</code></font><br>
