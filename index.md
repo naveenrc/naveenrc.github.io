@@ -1,6 +1,7 @@
 ---
 layout: home
-permalink: /blogs/index.html
+
+[//]: # (permalink: /index/index.html)
 title: Articles
 tags: [blog, philosophy]
 ---
