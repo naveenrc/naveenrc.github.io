@@ -1,20 +1,20 @@
 title:            Naveen Chilumula
-tagline:          Ninja Developer
+tagline:          N
 description:      About me
-canonical: https://naveenchilumula.com
+# canonical: https://naveenchilumula.com
 
 # Owner/author information
 owner:
   name:           Naveen Chilumula
   avatar:         avatar.png
-  bio:            "Software Engineer & Rock Climber"
+  bio:            "Software Engineer"
   email:          naveenrch@yahoo.com
   twitter:
   github:         naveenrc
   instagram:
   dribbble:
   disqus:
-  location:       "Jersey City, NJ"
+  # location:       "Jersey City, NJ"
   # Plug in your disqus shortname!
 
 tools:
@@ -28,10 +28,10 @@ opengraph:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: The Science of Computing
-    url: /quantum_computing
-  - title: Rock Climbing
-    url: /climbing
+  - title: Blogs
+    url: /blogs
+  # - title: Rock Climbing
+  #   url: /climbing
   # - title: Contact Me
   #   url: /contact
 
