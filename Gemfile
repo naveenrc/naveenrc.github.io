@@ -6,3 +6,4 @@ gem 'coderay'
 gem 'rake'
 gem 'tzinfo-data'
 gem 'pygments.rb'
+gem "rexml", "~> 3.2"
