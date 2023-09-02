@@ -1,4 +1,3 @@
----
 layout: post
 title: An overview of basic concepts of Quantum Computing
 description: "Science is interesting. From discovering gravity to setting foot on moon, every event was a giant leap of success for mankind. Quantum computing, is probably going to shape the future. Let`s see what it is and how easy is it to learn & research. This article provides an overview of few key characteristics of quantum mechanics that are necessary in quantum computing."
@@ -7,7 +6,7 @@ category: articles
 tags: [intro, beginner]
 image:
   feature: "post1.jpg"
----
+
 <p style="text-align: justify">This article is inspired from MIT professor Barton Zwiebach`s online courses. If it has been long time since you left college, don`t worry! This article is a short  overview of the key characteristics of Quantum Mechanics which will be helpful in Quantum physics and Quantum Information Science. Prof. Barton caught my attention as soon as I hit play button, he goes, Quantum mechanics is a framework; Wrap it around something it becomes quantum-something. For example, quantum mechanics applied to physical phenomena gives Quantum physics and similarly quantum mechanics applied to photons (in regular english when applied to light and optical devices) turns into quantum optics and so on. Although there is a lot of research going on at the moment, the era of quantum physics began in 1925 with the discoveries of Schrodinger and Heisenberg, while the seeds for these discoveries were planted by Planck, Einstein, Bohr, de Broglie, and others. This field is counterintuitive and it might seem paradoxical and let`s see why.</p>
 
 Lets understand the following key features of Quantum Mechanics:
